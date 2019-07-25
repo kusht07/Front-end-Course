@@ -1,0 +1,20 @@
+/* Reading on some css properties */
+
+ul {
+    list-style-type: none;     /* Removes bullet points from list  */
+    background-color: rgb(51, 51, 51);    /* Sets background color of ul */
+    overflow:auto           /* if content goes outside the box, clip it or add scroll bar */
+  }
+  
+  li a {
+    float: left; 
+    display: block;     /* generate a box around text */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;  /* top and right padding values given */
+  }
+  .logo 
+  {
+    display: block;     /* generate a box around it */
+    float: left; 
+  }

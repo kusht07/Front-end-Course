@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game of Thrones</title>
+        <style> 
+            table{
+            border-collapse: collapse;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#6e6f74; 
+        }
+        thead {
+            color: #685e5c;
+            font-weight: bold; 
+        }
+        tbody>tr {
+            border-bottom: 1px solid #ddd;
+        }
+        th,td {
+            padding:20px;
+        }
+        tbody td:first-child {
+            color:#653e89;
+        }
+        tbody tr:last-child {
+            border: 0;
+        }
+        tfoot{
+            text-align: center;
+        }
+        tfoot a {
+            display: inline-block;
+            text-decoration: none;
+            color: #aaa;
+            margin-right: 10px;
+        }
+        a.active{
+            color:white;
+            font-weight: bold;
+            background-color: #008cba;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+        .selected{
+            background-color:#3ec08a;
+        }
+        .error{
+            background-color:#a8363b;
+        }
+        </style>
+    </head>
+    <body>
+      <h1>Game of Thrones Season-1 </h1>
+      <hr>
+      <h3>Top 5 most viewed episodes</h3>
+      <table border="2" cellpadding="7">
+        <thead> 
+          <tr style="background-color:#2a4c4c; color: white">
+            <th>Episode No.</th>
+            <th>Title</th>
+            <th>U.S. viewers (millions)</th>
+          </tr>
+        </thead>  
+        <tbody>
+          <tr>
+            <td style="background-color:#e8eaef;">10</td>
+            <td><a href="https://en.wikipedia.org/wiki/Fire_and_Blood_(Game_of_Thrones)" target="_blank">"Fire and Blood"<a></td>
+            <td>3.04</td>
+          </tr>
+          <tr class="error">
+            <td style="background-color:#e8eaef;">8</td>
+            <td><a href="https://en.wikipedia.org/wiki/The_Pointy_End" target="_blank">"The Pointy End"<a></td>
+            <td>2.72</td>
+          </tr>
+          <tr>
+            <td style="background-color:#e8eaef;">9</td>
+            <td><a href="https://en.wikipedia.org/wiki/Baelor" target="_blank">"Baelor"<a></td>
+            <td>2.66</td>
+          </tr>
+          <tr class="selected">
+            <td style="background-color:#e8eaef;">5</td>
+            <td><a href="https://en.wikipedia.org/wiki/The_Wolf_and_the_Lion" target="_blank">"The Wolf and the Lion"<a></td>
+            <td>2.58</td>
+          </tr>
+          <tr>
+            <td style="background-color:#e8eaef;">4</td>
+            <td><a href="https://en.wikipedia.org/wiki/Cripples,_Bastards,_and_Broken_Things" target="_blank">"Cripples, Bastards, and Broken Things"<a></td>
+            <td>2.45</td>
+          </tr>
+          <tr>
+            <td colspan="3" align="center"><img src="imgs/game_1.jpg" width="300" alt="winter is coming"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" align="center" style="color: white; background-color:black;">Winnipeg</td>
+          </tr>
+        </tfoot>
+      </table>
+    </body>
+</html>

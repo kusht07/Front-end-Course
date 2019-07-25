@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="icon" href="img/fav.png" type="image/icon">
+  </head>
+  <body>
+    <p style="text-align: center;">
+      <a href="index.html">Home</a>&nbsp;&nbsp;<a href="schedule.html">Schedule</a>&nbsp;&nbsp;<a href="contact.html">Contact Us</a>&nbsp;&nbsp;<a href="location.html">Location</a>&nbsp;&nbsp;<a href="pricing.html">Pricing</a>&nbsp;&nbsp;<a href="gallery.html">Gallery</a>
+    </p> 
+    <hr>
+    <h1> Contact Us</h1>
+    <hr>
+    <img src="img/cont.jpg" alt="phone">
+    <p><a href="mailto:kushagra.trivedi@outlook.com">Email </a>us now for queries or For more info, call us in Gimli at 204-642-8233 or 204-642-9456.</p>
+    <hr>
+    <h2>Sign up for newsletter</h2>
+    <form action="thanks.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>User Form</legend>
+            <label for="user">Username: </label>
+            <input type="text" placeholder="Username" name="username" id="user" size="30"  maxlength="12" required="true" pattern="^[a-zA-Z0-9]*$">
+            <span>Only letters and  numbers are accepted</span><br><br>
+            <label for="pass">Password: </label>
+            <input type="password" placeholder="Password" name="password" id="pass" size="30"  maxlength="8" required="true" pattern="^[A-Z]*$">
+            <span>Only Capitals are accepted</span><br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" size="30"  maxlength="30" required>
+            <br><br>
+            <label for="email">Gender: </label><br>
+            <input type="radio" name="gender" id="male" value="male">Male<br>
+            <input type="radio" name="gender" value="Female" checked>Female<br>
+            <input type="radio" name="gender" value="Other">Other<br>
+            <input type="submit" value="Submit">
+        </fieldset>
+  </body>
+</html>    

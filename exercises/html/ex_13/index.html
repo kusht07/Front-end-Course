@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create User</title>
+  </head>
+  <body>
+      <h1> Create User</h1>
+      <hr>
+      <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+        <label for="fname">Full Name : </label>
+        <input type="text" name="name" placeholder="Name" id="fname">
+        <label for="mov"> Select Your favourite Movie : </label>
+        <select name="movie" id="mov">
+            <option value="deadpool">Deadpool</option>
+            <option value="batman_vs_superman">Batman v Superman</option>
+            <option value="civil_war">Captain America: Civil War</option>
+            <option value="doctor_strange">Doctor Strange</option>
+            <option value="suicide_squad">Suicide Squad</option>
+            <option value="apocalypse">X-Men: Apocalypse</option>
+            <option value="gotg_vol2">Guardians of the Galaxy Vol </option>
+            <option value="justice_league">Justice League</option>
+            <option value="logan">Logan</option>
+            <option value="homecoming">Spider-Man: Homecoming</option>
+            <option value="wonder_woman" selected="True"> Wonder Woman </option>
+            <option value="thor_ragnarok">Thor: Ragnarok</option>
+            <option value="black_panther">Black Panther</option>
+        </select>
+        <br><br>
+        <label for="bio">About you : </label><br>
+        <textarea id="bio" name="bio" placeholder="Write few lines about yourself" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="avatar">Upload your avatar : </label>
+        <input type="file" id="avatar" name="avatar">
+        <br><br>
+        <button value="clearbtn" name="clearform">Clear Form</button>
+        <br><br>
+        <button value="adduserbtn" name="adduser">Add New user</button> 
+      </form>
+  </body>
+</html>
