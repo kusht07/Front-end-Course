@@ -87,6 +87,8 @@ const person = {
     state: 'MA'
   }
 }
+ const {firstName,age} = person
+ console.log(firstName + " " + lastname)
 
 // Get single value
 console.log(person.name)
