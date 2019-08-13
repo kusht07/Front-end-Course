@@ -1,0 +1,9 @@
+let firstNumber = 3;
+let secondNumber = 5;
+
+if (firstNumber > secondNumber) {
+    console.log(`${firstNumber} is greater than ${secondNumber}`);
+} else {
+    console.log(`${secondNumber} is greater than ${firstNumber}`);
+
+}
